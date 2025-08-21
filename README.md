@@ -1,8 +1,8 @@
-<p align="center">
+<div align="center">
   
   <strong>Anísio — Software Engineer</strong><br>
   Clean code • Rust • Next.js • Open source
-</p>
+</div>
 
 <div align="center">
   
