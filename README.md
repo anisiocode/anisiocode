@@ -1,6 +1,5 @@
 <div align="center">
-  
-  <strong>Anísio — Software Engineer</strong><br>
+  <strong>Anísio — Full-stack Engineer</strong><br>
   Clean code • Rust • Next.js • Open source
 </div>
 
