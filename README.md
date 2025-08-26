@@ -1,9 +1,10 @@
 <div align="center">
 
-  ![anisiocode's GitHub stats](https://github-readme-stats.vercel.app/api?username=anisiocode\&rank_icon=percentile)
+  ![anisio's GitHub stats](https://github-readme-stats.vercel.app/api?username=anisiocode\&rank_icon=percentile)
 
-  ![anisiocode's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anisiocode&size_weight=0.5&count_weight=0.5)
-  ![anisiocode's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=anisiocode\&layout=compact)
+  ![anisio's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anisiocode&size_weight=0.5&count_weight=0.5)
+  ![anisio's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=anisiocode\&layout=compact)
+  [![anisio's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/anisiocode/github-readme-stats)
   
   <!-- ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anisiocode&theme=aura)
   ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anisiocode&theme=aura)
