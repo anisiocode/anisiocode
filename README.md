@@ -1,6 +1,6 @@
 <div align="center">
 
-  ![anisio's GitHub stats](https://github-readme-stats.vercel.app/api?username=anisiocode&theme=highcontrast\&rank_icon=percentile\&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+  ![anisio's GitHub stats](https://github-readme-stats.vercel.app/api?username=anisiocode&theme=synthwave\&rank_icon=percentile\&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
 
   ![anisio's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anisiocode\&layout=compact)
   
