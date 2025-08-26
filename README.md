@@ -1,8 +1,8 @@
 <div align="center">
 
-  ![anisio's GitHub stats](https://github-readme-stats.vercel.app/api?username=anisiocode\&rank_icon=percentile)
+  ![anisio's GitHub stats](https://github-readme-stats.vercel.app/api?username=anisiocode&theme=transparent\&rank_icon=percentile)
 
-  ![anisio's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anisiocode&size_weight=0.5&count_weight=0.5)
+  ![anisio's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anisiocode\&layout=compact)
   ![anisio's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=anisiocode\&layout=compact)
   [![anisio's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=anisiocode)](https://github.com/anisiocode/anisiocode)
   
