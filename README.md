@@ -1,6 +1,6 @@
 <div align="center">
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anisiocode&show_icons=true&theme=transparent)
+![anisiocode's GitHub stats](https://github-readme-stats.vercel.app/api?username=anisiocode\&rank_icon=percentile)
 
   ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anisiocode&size_weight=0.5&count_weight=0.5)
   
