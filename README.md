@@ -5,10 +5,10 @@
   ![anisio's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anisiocode&theme=onedark\&layout=compact)
   
   ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anisiocode&theme=onedark)
-  ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anisiocode&theme=aura)
-  ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anisiocode&theme=aura)
-  ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=anisiocode&theme=aura)
-  ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=anisiocode&theme=aura&utcOffset=8)
+  ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anisiocode&theme=onedark)
+  ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anisiocode&theme=onedark)
+  ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=anisiocode&theme=onedark)
+  ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=anisiocode&theme=onedark&utcOffset=8)
   
 </div>
 
