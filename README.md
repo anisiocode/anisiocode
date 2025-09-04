@@ -11,6 +11,6 @@
 
 <div align="center">
 
-/**** AnisioCode - my space to learn, share and create! ****/
+AnisioCode - my space to learn, share and create!
 
 </div>
