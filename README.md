@@ -1,5 +1,3 @@
-<div align="center">
-
 ```bash
 
  █████╗ ███╗   ██╗██╗███████╗██╗ ██████╗     ██████╗ ██████╗ ██████╗ ███████╗
@@ -11,5 +9,3 @@
 
 #   AnisioCode - my space to learn, share and create!   #
 ```
-
-</div>
