@@ -15,8 +15,20 @@ AnisioCode - my space to learn, share and create!
 
 </div>
 
+<div align="center">
+
+🧲 Connect me
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Twitter Follow](https://img.shields.io/twitter/follow/anisiocode?style=social)](https://twitter.com/anisiocode)
+[![GitHub followers](https://img.shields.io/github/followers/anisiocode?label=Follow&style=social)](https://github.com/anisiocode)
+[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UC4QZ_LsYcvcq7qOsOhpAX4A?style=social)](https://www.youtube.com/@anisiocode)
+[![Gmail Badge](https://img.shields.io/badge/Gmail-Email-blue?style=flat&logo=gmail)](mailto:anisiocode@gmail.com)
+
+</div>
+
 <a href="mailto:anisiocode@gmail.com">
-  <img width="60px" src="https://play-lh.googleusercontent.com/MaRCSacmqLlbSST5m_sJUb_tE9pTresHYgwpd4gInpcj_NVGbjLCnTe96Yx5zz893bA=w480-h960" alt="Gmail" /></a>
+<img width="60px" src="https://play-lh.googleusercontent.com/MaRCSacmqLlbSST5m_sJUb_tE9pTresHYgwpd4gInpcj_NVGbjLCnTe96Yx5zz893bA=w480-h960" alt="Gmail" /></a>
 
 <!-- Under maintenance -->
   <!-- <a href="https://anisionkula.vercel.app/" target="_blank">
