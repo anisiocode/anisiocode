@@ -26,5 +26,5 @@ AnisioCode - my space to learn, share and create!
 <a href="https://open.spotify.com/playlist/3hbcXWEW46k9OjzOjgG1z2" target="_blank">
   <img width="60px" src="https://cdn.jim-nielsen.com/watchos/512/spotify-music-and-podcasts-2020-03-19.png?rf=1024" alt="Spotify Badge"></a>
 
-<a href="https://www.youtube.com/playlist?list=PLAoJfvFSn6qi_8eTKMXdKGMQGQfYOV54n" target="_blank">
+<a href="https://www.youtube.com/@anisiocode" target="_blank">
   <img width="60px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/YouTube_play_button_square_%282013-2017%29.svg/2048px-YouTube_play_button_square_%282013-2017%29.svg.png" alt="YouTube Badge"></a>
