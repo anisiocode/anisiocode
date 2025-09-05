@@ -1,9 +1,9 @@
 "use client";
 
-import { useState } from "react";
 import CommandInput from "@/components/CommandInput";
 import OutputLine from "@/components/OutputLine";
 import { commands } from "@/lib/commands";
+import { useState } from "react";
 
 interface HistoryEntry {
   type: "input" | "output";
