@@ -30,25 +30,15 @@ I'm **Anisio Nkula**, a passionate developer and tech enthusiast. I love explori
 <div align="center">
 
 [![](https://github-profile-trophy.vercel.app/?username=anisiocode&theme=radical&no-frame=false&margin-w=5)]()
-
 [![](https://github-readme-stats.vercel.app/api?username=anisiocode&count_private=true&show_icons=true&theme=radical&rank_icon=github&border_radius=5&hide_border=false)]()
-
 [![GitHub Streak Stats](https://nirzak-streak-stats.vercel.app/?user=anisiocode&theme=radical&hide_border=false)]()
-
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=anisiocode&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact)]()
-
 [![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=anisiocode&theme=nord&line=40c463&point=fff7e0&area=true&hide_border=true)]()
-
 [![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anisiocode&theme=radical)]()
-
 [![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anisiocode&theme=radical)]()
-
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anisiocode&theme=radical)
-
 [![](http://github-profile-summary-cards.vercel.app/api/cards/most-starred-repos?username=anisiocode&theme=radical)]()
-
 [![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=anisiocode&theme=radical)]()
-
 [![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=anisiocode&theme=radical&utcOffset=8)]()
 
 </div>
