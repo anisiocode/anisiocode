@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Cursor from "./Cursor";
 
 interface CommandInputProps {
   onSubmit: (cmd: string, args: string[]) => void;
@@ -56,7 +55,7 @@ export default function CommandInput({ onSubmit }: CommandInputProps) {
           onKeyDown={handleKeyDown}
           autoFocus
         />
-        <Cursor />
+        {/* <Cursor /> */}
       </div>
     </form>
   );

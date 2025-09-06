@@ -22,7 +22,7 @@ export const commands: Record<string, Command> = {
   },
   contact: {
     description: "Show contact info",
-    run: async () => "📧 email@email.com\n🔗 linkedin.com/in/anisio",
+    run: async () => "📧 email@email.com\n🔗 linkedin.com/in/anisiocode",
   },
   clear: {
     description: "Clear the terminal",
