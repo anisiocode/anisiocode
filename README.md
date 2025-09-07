@@ -9,8 +9,8 @@
 
 ```
 
-![](https://hit.yhype.me/github/?profile?account_id=217514532&style=flat&color=blueviolet&abbreviated=true&label=%20+👀+%20&)
-![](https:////)
+![](https://hit.yhype.me/github/?username=anisiocode&style=flat&color=blueviolet&abbreviated=true&label=%20+👀+%20&)
+![](https://hit.yhype.me/github/profile?account_id=217514532)
 
 # Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" alt="Waving Hand"/>
 
