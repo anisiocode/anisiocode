@@ -9,7 +9,7 @@
 
 ```
 
-![](https://komarev.com/ghpvc/?username=anisiocode&style=flat&color=brightgreen)
+![](https://komarev.com/ghpvc/?username=anisiocode&style=flat&color=blueviolet&abbreviated=true&label=👀)
 
 # Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" alt="Waving Hand"/>
 
