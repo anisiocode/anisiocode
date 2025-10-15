@@ -20,7 +20,7 @@ I'm **Anisio Nkula**, a passionate developer and tech enthusiast. I love explori
 
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=js,ts,react,next,nodejs,express,mongo,docker,kubernetes,git,github,vscode,linux,tailwind,firebase,aws,heroku,netlify,vercel,python,cpp,cs,go,rust,figma,xd,blender,unity,supabase,prisma,graphql,apollo,threejs,cypress,postman,notion,obsidian,markdown,latex,bash,powershell,ansible,terraform,jenkins,bun,npm&perline=13)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,ts,next,nodejs,mongo,docker,git,github,vscode,linux,tailwind,firebase,aws,netlify,vercel,rust,figma,xd,blender,unity,prisma,graphql,postman,notion,obsidian,markdown,ansible,terraform,jenkins,bun,npm&perline=15)](https://skillicons.dev)
 
 </div>
 
