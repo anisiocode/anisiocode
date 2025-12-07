@@ -33,30 +33,27 @@ I'm **Anisio Nkula**, a passionate developer and tech enthusiast. I love explori
 
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=js,ts,next,nodejs,mongo,docker,git,github,vscode,linux,tailwind,firebase,aws,netlify,vercel,rust,figma,xd,unity,cs,prisma,graphql,postman,notion,markdown,bun,npm&perline=15)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,ts,next,nodejs,mongo,docker,git,github,vscode,linux,tailwind,firebase,aws,netlify,vercel,rust,figma,xd,unity,cs,prisma,graphql,postman,notion,markdown,bun,npm&perline=9)](https://skillicons.dev)
 
 </div>
 
-<details>
-<summary>GitHub Stats</summary>
-<div align="center">
-
 [![](https://github-profile-trophy.vercel.app/?username=anisiocode&theme=radical&no-frame=false&margin-w=5)]()
-<img src="https://github-readme-stats.vercel.app/api?username=anisiocode&count_private=true&show_icons=true&theme=transparent&rank_icon=percentile&border_radius=5&hide_border=true" alt="Anisio's GitHub stats" width="360"/>
+
+[![Anisio's GitHub stats](https://github-readme-stats.vercel.app/api?username=anisiocode&count_private=true&show_icons=true&theme=transparent&rank_icon=percentile&border_radius=5&hide_border=true)]()
 
 [![GitHub Streak](https://anisio-github-streak-stats.vercel.app?user=anisiocode&theme=transparent&hide_border=true&short_numbers=true&date_format=M%20j%5B%2C%20Y%5D&exclude_days=Sun%2CSat)]()
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anisiocode&theme=transparent&hide_border=true&include_all_commits=false&count_private=false&layout=compact" alt="Anisio's Top Languages"/>
+[![Anisio's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=anisiocode&theme=transparent&hide_border=true&include_all_commits=false&count_private=false&layout=compact)]()
 
 [![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anisiocode&theme=transparent)]()
+
 [![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anisiocode&theme=transparent)]()
+
 [![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=anisiocode&theme=transparent&utcOffset=8)]()
 
 [![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anisiocode&theme=transparent)]()
-[![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=anisiocode&theme=cobalt&line=40c463&point=fff7e0&area=true&hide_border=true)]()
 
-</div>
-</details>
+[![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=anisiocode&theme=cobalt&line=40c463&point=fff7e0&area=true&hide_border=true)]()
 
 <div align="center">
 
