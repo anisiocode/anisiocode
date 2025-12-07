@@ -75,6 +75,10 @@
 }
 
 @theme inline {
+  --font-base: var(--font-jetbrain);
+  --font-rubik: var(--font-rubik);
+  --font-playfair: var(--font-playfair);
+  --font-lusitana: var(--font-lusitana);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -118,6 +122,6 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-base;
   }
 }

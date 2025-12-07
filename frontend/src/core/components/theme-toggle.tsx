@@ -20,11 +20,11 @@ export default function ThemeToggle() {
   return (
     <Button
       variant="ghost"
-      size="icon"
+      size="icon-sm"
       onClick={toggle}
       aria-label="Toggle theme"
     >
-      <ThemeIcon className="size-5" />
+      <ThemeIcon className="size-4" />
     </Button>
   );
 }

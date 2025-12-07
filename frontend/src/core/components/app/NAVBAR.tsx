@@ -2,7 +2,9 @@
 
 import { useApp } from "@contexts";
 import { useTheme } from "next-themes";
-import { ModeSwitcher, ThemeToggle } from "@components";
+import { ModeSwitcher, ThemeToggle, Separator, Button } from "@components";
+import Link from "next/link";
+import { Github } from "lucide-react";
 
 export default function NAVBAR() {
   const { mode, setMode } = useApp();
@@ -13,25 +15,30 @@ export default function NAVBAR() {
   };
 
   return (
-    <nav
-      style={{
-        width: "100%",
-        height: "60px",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
-        padding: "0 20px",
-        borderBottom: "1px solid #444",
-      }}
-    >
-      {/* Left: Logo */}
-      <div className="text-base">anisiocode</div>
+    <nav className="flex w-full items-center justify-between px-7 py-2">
+      {/* Left Group: Logo + ModeSwitcher */}
+      <div className="flex items-center gap-2">
+        <Link href={"/"}>
+          <Button variant="ghost">anisiocode</Button>
+        </Link>
 
-      {/* Center: Mode Switch */}
-      <ModeSwitcher />
+        <div className="text-base fon">{"✕"}</div>
 
-      {/* Right: Theme Toggle */}
-      <ThemeToggle />
+        <ModeSwitcher />
+      </div>
+
+      {/* Right Group */}
+      <div className="flex flex-row items-center gap-4 h-6">
+        <div>links</div>
+        <Separator orientation="vertical" />
+        <Link href={"https://github.com/anisiocode"} target="_">
+          <Button variant={"ghost"}>
+            <Github className="size-4" />
+          </Button>
+        </Link>
+        <Separator orientation="vertical" />
+        <ThemeToggle />
+      </div>
     </nav>
   );
 }
