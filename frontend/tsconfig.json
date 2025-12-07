@@ -1,0 +1,78 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./*"],
+
+      // -----------------------------------------
+      // MAIN ALIASES (clean, top-level imports)
+      // -----------------------------------------
+      // These aliases point directly to each module's index file.
+      // They keep imports short, readable, and consistent.
+      // Example:
+      //   import { Button } from "@ui";
+      //   import { fetchUser } from "@api";
+      "@core": ["./core/index"],
+      "@ui": ["./core/components/ui/index"],
+      "@app": ["./core/components/app/index"],
+      "@components": ["./core/components/index"],
+      "@styles": ["./core/styles/index"],
+      "@utils": ["./core/utils/index"],
+      "@libs": ["./core/libs/index"],
+      "@apis": ["./core/apis/index"],
+      "@configs": ["./core/configs/index"],
+      "@contexts": ["./core/contexts/index"],
+      "@hooks": ["./core/hooks/index"],
+      "@types": ["./core/types/index"],
+
+      // -----------------------------------------
+      // DETAILED ALIASES (precise file-level imports)
+      // -----------------------------------------
+      // These aliases allow importing specific files inside a module.
+      // They provide flexibility when you need granular imports.
+      // Example:
+      //   import { useTheme } from "@hooks/useTheme";
+      //   import Card from "@ui/card/Card";
+      "@core/*": ["./core/*"],
+      "@ui/*": ["./core/components/ui/*"],
+      "@app/*": ["./core/components/app/*"],
+      "@components/*": ["./core/components/*"],
+      "@style/*": ["./core/styles/*"],
+      "@utils/*": ["./core/utils/*"],
+      "@libs/*": ["./core/libs/*"],
+      "@apis/*": ["./core/apis/*"],
+      "@configs/*": ["./core/configs/*"],
+      "@contexts/*": ["./core/contexts/*"],
+      "@hooks/*": ["./core/hooks/*"],
+      "@types/*": ["./core/types/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts",
+    "**/*.mts"
+  ],
+  "exclude": ["node_modules"]
+}
