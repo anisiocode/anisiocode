@@ -46,11 +46,8 @@ I'm **Anisio Nkula**, a passionate developer and tech enthusiast. I love explori
 [![Anisio's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=anisiocode&theme=transparent&hide_border=true&include_all_commits=false&count_private=false&layout=compact)]()
 
 [![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anisiocode&theme=transparent)]()
-
 [![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anisiocode&theme=transparent)]()
-
 [![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=anisiocode&theme=transparent&utcOffset=8)]()
-
 [![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anisiocode&theme=transparent)]()
 
 [![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=anisiocode&theme=cobalt&line=40c463&point=fff7e0&area=true&hide_border=true)]()
