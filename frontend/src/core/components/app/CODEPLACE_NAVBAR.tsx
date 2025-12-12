@@ -1,17 +1,9 @@
 "use client";
 
 import { useApp } from "@contexts";
-import { useTheme } from "next-themes";
-import {
-  ModeSwitcher,
-  ThemeToggle,
-  Separator,
-  Button,
-  Sheet,
-} from "@components";
+import { ThemeToggle, Separator, Button, Sheet } from "@components";
 import Link from "next/link";
 import { SiGithub, SiInstagram, SiYoutube } from "react-icons/si";
-import { ChevronDown } from "lucide-react";
 
 export default function CODEPLACE_NAVBAR() {
   const { mode } = useApp();
