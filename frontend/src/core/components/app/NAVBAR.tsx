@@ -2,9 +2,15 @@
 
 import { useApp } from "@contexts";
 import { useTheme } from "next-themes";
-import { ModeSwitcher, ThemeToggle, Separator, Button } from "@components";
+import {
+  ModeSwitcher,
+  ThemeToggle,
+  Separator,
+  Button,
+  Sheet,
+} from "@components";
 import Link from "next/link";
-import { Github } from "lucide-react";
+import { SiGithub, SiInstagram, SiYoutube } from "react-icons/si";
 
 export default function NAVBAR() {
   const { mode, setMode } = useApp();
@@ -15,30 +21,55 @@ export default function NAVBAR() {
   };
 
   return (
-    <nav className="flex w-full items-center justify-between px-7 py-2">
-      {/* Left Group: Logo + ModeSwitcher */}
-      <div className="flex items-center gap-2">
-        <Link href={"/"}>
-          <Button variant="ghost">anisiocode</Button>
-        </Link>
+    <nav className="flex w-full items-center justify-between px-2 py-2 fixed bg-background/10 backdrop-blur-sm z-50">
+      <ModeSwitcher />
 
-        <div className="text-base fon">{"✕"}</div>
-
-        <ModeSwitcher />
-      </div>
-
-      {/* Right Group */}
-      <div className="flex flex-row items-center gap-4 h-6">
-        <div>links</div>
-        <Separator orientation="vertical" />
-        <Link href={"https://github.com/anisiocode"} target="_">
-          <Button variant={"ghost"}>
-            <Github className="size-4" />
+      <Sheet>
+        <Sheet.Trigger asChild>
+          <Button
+            variant={"ghost"}
+            className="text-xs md:text-sm font-thin md:font-normal"
+          >
+            {"[ Menu ]"}
           </Button>
-        </Link>
-        <Separator orientation="vertical" />
-        <ThemeToggle />
-      </div>
+        </Sheet.Trigger>
+        <Sheet.Content
+          side="right"
+          className="bg-background/50 backdrop-blur-sm md:bg-background md:backdrop-blur-none"
+        >
+          <Sheet.Header>
+            <Sheet.Title>Hello World</Sheet.Title>
+            <Sheet.Description>
+              This is just a small world for now, but very soon it will be
+              filled with content.
+            </Sheet.Description>
+            <div className="flex flex-row items-center gap-4 h-6 mt-4">
+              <div>
+                <Link href={"https://github.com/anisiocode"} target="_">
+                  <Button variant={"ghost"} size={"icon"}>
+                    <SiGithub className={"size-5"} />
+                  </Button>
+                </Link>
+                <Link href={"https://instagram.com/_u/anisiocode"} target="_">
+                  <Button variant={"ghost"} size={"icon"}>
+                    <SiInstagram className={"size-5"} />
+                  </Button>
+                </Link>
+                <Link href={"https://youtube.com/@anisiocode"} target="_">
+                  <Button variant={"ghost"} size={"icon"}>
+                    <SiYoutube className={"size-5"} />
+                  </Button>
+                </Link>
+              </div>
+              <Separator orientation="vertical" />
+              <ThemeToggle />
+            </div>
+          </Sheet.Header>
+          <Sheet.Footer className="text-xs md:text-sm font-thin md:font-normal">
+            &copy; anisiocode, all rights reserved
+          </Sheet.Footer>
+        </Sheet.Content>
+      </Sheet>
     </nav>
   );
 }
