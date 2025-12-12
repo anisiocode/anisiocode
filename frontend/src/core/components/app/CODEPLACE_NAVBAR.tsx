@@ -11,18 +11,23 @@ import {
 } from "@components";
 import Link from "next/link";
 import { SiGithub, SiInstagram, SiYoutube } from "react-icons/si";
+import { ChevronDown } from "lucide-react";
 
-export default function NAVBAR() {
-  const { mode, setMode } = useApp();
-  const { theme, setTheme } = useTheme();
+export default function CODEPLACE_NAVBAR() {
+  const { mode } = useApp();
 
-  const toggleMode = () => {
-    setMode(mode === "portfolio" ? "codeplace" : "portfolio");
-  };
+  if (mode !== "codeplace") return null;
 
   return (
     <nav className="flex w-full items-center justify-between px-2 py-2 fixed bg-background/10 backdrop-blur-sm z-50">
-      <ModeSwitcher />
+      <Link href={"/"}>
+        <Button
+          variant="link"
+          className="text-xs md:text-sm font-thin md:font-normal"
+        >
+          {"[ anisiocode ]"}
+        </Button>
+      </Link>
 
       <Sheet>
         <Sheet.Trigger asChild>
@@ -38,7 +43,7 @@ export default function NAVBAR() {
           className="bg-background/50 backdrop-blur-sm md:bg-background md:backdrop-blur-none"
         >
           <Sheet.Header>
-            <Sheet.Title>Hello World</Sheet.Title>
+            <Sheet.Title>cODE_PLACE</Sheet.Title>
             <Sheet.Description>
               This is just a small world for now, but very soon it will be
               filled with content.

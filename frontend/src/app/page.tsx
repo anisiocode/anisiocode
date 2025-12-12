@@ -1,10 +1,13 @@
 "use client";
 
-import { useApp } from "@contexts";
-import { CODEPLACE, PORTFOLIO } from "@app";
+import { Hero } from "@components";
 
-export default function Home() {
-  const { mode } = useApp();
+const portfolio = () => {
+  return (
+    <>
+      <Hero />
+    </>
+  );
+};
 
-  return mode === "codeplace" ? <CODEPLACE /> : <PORTFOLIO />;
-}
+export default portfolio;

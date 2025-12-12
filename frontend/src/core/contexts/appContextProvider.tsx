@@ -1,6 +1,7 @@
 "use client";
 
-import { createContext, useContext, useState, useEffect } from "react";
+import { createContext, useContext } from "react";
+import { usePathname, useRouter } from "next/navigation";
 import { AppContextType, AppMode } from "@types";
 
 const AppContext = createContext<AppContextType | null>(null);
@@ -10,34 +11,30 @@ export function AppContextProvider({
 }: {
   children: React.ReactNode;
 }) {
-  const [mode, setMode] = useState<AppMode | null>(null); // inicializa como null
-  const [mounted, setMounted] = useState(false);
+  const pathname = usePathname();
+  const router = useRouter();
 
-  // Carrega do localStorage ao montar
-  useEffect(() => {
-    const storedMode = localStorage.getItem("appMode") as AppMode | null;
-    setMode(storedMode ?? "portfolio"); // se não existir, fallback para "portfolio"
-    setMounted(true); // marca que o componente está montado
-  }, []);
+  // Determinar o modo através da rota
+  const mode: AppMode = pathname.startsWith("/codeplace")
+    ? "codeplace"
+    : "portfolio";
 
-  // Salva no localStorage sempre que o modo mudar
-  useEffect(() => {
-    if (mode) localStorage.setItem("appMode", mode);
-  }, [mode]);
-
+  // Agora toggle mode significa REDIRECIONAR para outra rota
   const toggleMode = () => {
-    if (mode)
-      setMode((prev) => (prev === "portfolio" ? "codeplace" : "portfolio"));
+    if (mode === "portfolio") {
+      router.push("/codeplace");
+    } else {
+      router.push("/");
+    }
   };
 
-  // Evita renderizar enquanto o estado não foi carregado
-  if (!mounted || mode === null) return null;
+  const value = {
+    mode,
+    setMode: () => {}, // Mantemos por compatibilidade, mas não faz nada
+    toggleMode,
+  };
 
-  return (
-    <AppContext.Provider value={{ mode, setMode: setMode as any, toggleMode }}>
-      {children}
-    </AppContext.Provider>
-  );
+  return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
 }
 
 export const useApp = () => {
