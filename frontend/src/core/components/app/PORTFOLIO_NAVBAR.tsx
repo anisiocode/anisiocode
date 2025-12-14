@@ -1,7 +1,7 @@
 "use client";
 
 import { useApp } from "@contexts";
-import { ThemeToggle, Separator, Button, Sheet } from "@components";
+import { Button, Sheet } from "@components";
 import Link from "next/link";
 import { SiGithub, SiInstagram, SiYoutube } from "react-icons/si";
 
@@ -10,11 +10,9 @@ export default function PORTFOLIO_NAVBAR() {
 
   if (mode !== "portfolio") return null;
   return (
-    <nav className="flex w-full items-center justify-between px-2 py-2 fixed bg-background/10 backdrop-blur-sm z-50">
-      <Link href={"/"}>
-        <Button variant="link" className="text-xs md:text-sm font-normal">
-          {"[ anisiocode ]"}
-        </Button>
+    <nav className="flex w-full items-center justify-between px-2 md:px-14 py-2 fixed bg-background/10 backdrop-blur-sm z-50">
+      <Link href={"/"} className="text-xs md:text-sm font-normal">
+        {"[ anisiocode ]"}
       </Link>
 
       <Sheet>
@@ -34,25 +32,21 @@ export default function PORTFOLIO_NAVBAR() {
               filled with content.
             </Sheet.Description>
             <div className="flex flex-row items-center gap-4 h-6 mt-4">
-              <div>
-                <Link href={"https://github.com/anisiocode"} target="_">
-                  <Button variant={"ghost"} size={"icon"}>
-                    <SiGithub className={"size-5"} />
-                  </Button>
-                </Link>
-                <Link href={"https://instagram.com/_u/anisiocode"} target="_">
-                  <Button variant={"ghost"} size={"icon"}>
-                    <SiInstagram className={"size-5"} />
-                  </Button>
-                </Link>
-                <Link href={"https://youtube.com/@anisiocode"} target="_">
-                  <Button variant={"ghost"} size={"icon"}>
-                    <SiYoutube className={"size-5"} />
-                  </Button>
-                </Link>
-              </div>
-              <Separator orientation="vertical" />
-              <ThemeToggle />
+              <Link href={"https://github.com/anisiocode"} target="_">
+                <Button variant={"ghost"} size={"icon"}>
+                  <SiGithub className={"size-5"} />
+                </Button>
+              </Link>
+              <Link href={"https://instagram.com/_u/anisiocode"} target="_">
+                <Button variant={"ghost"} size={"icon"}>
+                  <SiInstagram className={"size-5"} />
+                </Button>
+              </Link>
+              <Link href={"https://youtube.com/@anisiocode"} target="_">
+                <Button variant={"ghost"} size={"icon"}>
+                  <SiYoutube className={"size-5"} />
+                </Button>
+              </Link>
             </div>
           </Sheet.Header>
           <Sheet.Footer className="text-xs md:text-sm font-thin md:font-normal">

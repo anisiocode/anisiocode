@@ -30,8 +30,7 @@ const RootLayout: LayoutFC = ({ children }) => {
         suppressHydrationWarning
       >
         <Providers>
-          <PORTFOLIO_NAVBAR />
-          {children}
+          <PORTFOLIO_NAVBAR>{children}</PORTFOLIO_NAVBAR>
         </Providers>
       </body>
     </html>
