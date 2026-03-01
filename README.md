@@ -35,18 +35,12 @@ I'm **Anisio Nkula**, a passionate developer and tech enthusiast. I love explori
 
 [![My Skills](https://skillicons.dev/icons?i=js,ts,next,nodejs,mongo,docker,git,github,vscode,linux,tailwind,firebase,aws,netlify,vercel,rust,figma,xd,unity,cs,prisma,graphql,postman,notion,markdown,bun,npm&perline=9)](https://skillicons.dev)
 
-</div>
-
-[![Anisio's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=anisiocode&theme=transparent&hide_border=true&include_all_commits=false&count_private=false&layout=compact)]()
-
 [![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anisiocode&theme=transparent)]()
 [![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anisiocode&theme=transparent)]()
 [![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=anisiocode&theme=transparent&utcOffset=1)]()
 [![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anisiocode&theme=transparent)]()
 
 [![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=anisiocode&theme=cobalt&line=40c463&point=fff7e0&area=true&hide_border=true)]()
-
-<div align="center">
 
 <img src="./docs/end_day.gif"  alt=""/>
 
