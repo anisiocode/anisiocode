@@ -1,5 +1,5 @@
 <div align="center">
 
-[anisiocode](./docs/anisiocode.svg)
+![anisiocode](./docs/anisiocode.svg)
 
 </div>
